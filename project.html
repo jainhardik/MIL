@@ -1,0 +1,263 @@
+<!doctype html>
+
+<HTML>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+
+
+
+<HEAD>
+<!--bootstrap/font awesome-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<TITLE>
+	MIL-DSCE
+	</TITLE>
+	<script type="text/javascript">
+		function renderTime(){
+		var currentTime = new Date();
+		var diem = "AM";
+		var h = currentTime.getHours();
+		var m = currentTime.getMinutes();
+		var s = currentTime.getSeconds();
+		setTimeout('renderTime()',1000);
+
+		if (h == 0) {
+			h = 12;
+		} 
+
+		else if (h > 12) { 
+			h = h - 12;
+			diem="PM";
+		}
+
+		if (h < 10) {
+			h = "0" + h;
+		}
+
+		if (m < 10) {
+			m = "0" + m;
+		}
+
+		if (s < 10) {
+			s = "0" + s;
+		}
+
+		var myClock = document.getElementById('clockDisplay');
+		myClock.textContent = h + ":" + m + ":" + s + " " + diem;
+		myClock.innerText = h + ":" + m + ":" + s + " " + diem;
+		}
+		renderTime();
+
+		</script>
+
+
+		<!--social share-->
+<script type="text/javascript">
+<!--for social buttons-->
+jQuery(document).ready(function($) {
+   $('.share').click(function() {
+     var NWin = window.open($(this).prop('href'), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+     if (window.focus)
+     {
+       NWin.focus();
+     }
+     return false;
+    });
+});
+
+
+
+
+
+	</script>
+
+
+	<link rel="stylesheet" href="project.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+
+
+
+</HEAD>
+
+<BODY>
+	<div id="big_wrapper">
+		<a name="top"></a>
+		<div align="right" id="clockDisplay" class="clockStyle"></div>
+		
+		<ul id="nav_bar">
+ 		 <li><a href="index.html">Home</a></li>
+ 		 <li><a href="">Projects</a></li>
+ 		 <li><a href="">Contact Us</a></li>
+ 		 <li><a href="">About Us</a></li>
+		</ul>
+
+
+	
+	<!--main section-->
+		<section id="main_section">
+
+		<!--containers for images-->
+			<div class="container">
+
+			<!--row1-->
+			<div class="row">
+
+
+			<!--thumbnail 1-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://www.blirk.net/wallpapers/1280x720/iron-man-wallpaper-2.jpg">
+					<a href="#">Project 1</a>
+
+					</div>
+				</div>
+
+
+			<!--thumbnail 2-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://wfiles.brothersoft.com/i/iron-man-power-control_160065-1280x720.jpg">
+					<a href="#">Project 2</a>
+					</div>
+				</div>
+
+
+			<!--thumbnail 3-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://www.mrwallpaper.com/wallpapers/iron-man-art-1280x720.jpg">
+					<a href="#">Project 3</a>
+					</div>
+				</div>
+
+				</div>
+
+
+				<!--row 2-->
+				<div class="row">
+
+			<!--thumbnail 4-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://wfiles.brothersoft.com/i/iron-man-one-man-army_160063-1280x720.jpg">
+					<a href="#">Project 4</a>
+					</div>
+				</div>
+
+				<!--thumbnail 5-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://www.mrwallpaper.com/wallpapers/iron-man-3-movie-1280x720.jpg">
+					<a href="#">Project 5</a>
+					</div>
+				</div>
+
+			<!--thumbnail 6-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://www.shortday.in/wp-content/uploads/2015/06/iron-man-pics.jpg">
+					<a href="#">Project 6</a>
+					</div>
+				</div>
+
+				</div>
+
+			<!--row 3-->
+				<div class="row">
+
+			<!--thumbnail 7-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://www.justinmaller.com/img/projects/wallpaper/WP_Ironman-2560x1440_00000.jpg">
+					<a href="#">Project 7</a>
+					</div>
+				</div>
+				<!--thumbnail 8-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="https://wallpaperscraft.com/image/superhero_iron_man_bright_77202_3840x2160.jpg">
+					<a href="#">Project 8</a>
+					</div>
+				</div>
+
+			<!--thumbnail 9-->
+				<div class="col-md-3">
+					<div class="thumbnail">
+					<img src="http://img13.deviantart.net/c03b/i/2013/206/7/4/ironman_minimalistic_wallpaper_by_mak002-d6f4z42.jpg">
+					<a href="#">Project 9</a>
+					</div>
+				</div>
+
+
+				</div> <!--row3 ends-->
+
+
+
+
+
+			</div>
+
+
+			</div>
+
+
+
+
+<!-- Floating Share Buttons Container -->
+<div class="socialfloat">
+ 
+   <!-- Facebook Share Button -->
+   <a class="fbtn share facebook" href="#"><i class="fa fa-facebook"></i></a>
+ 
+   <!-- Google Plus Share Button -->
+   <a class="fbtn share gplus" href="#"><i class="fa fa-google-plus"></i></a>
+ 
+   <!-- Twitter Share Button -->
+   <a class="fbtn share twitter" href="#"><i class="fa fa-twitter"></i></a>
+ 
+   <!-- Stumbleupon Share Button -->
+   <a class="fbtn share stumbleupon" href="#"><i class="fa fa-stumbleupon"></i></a>
+ 
+   <!-- Pinterest Share Button -->
+   <a class="fbtn share pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+ 
+   <!-- LinkedIn Share Button -->
+   <a class="fbtn share linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+ 
+   <!-- Buffer Share Button -->
+   <a class="fbtn share buffer" href="#"><i class="fa fa-share-square-o"></i></a>
+</div>
+
+
+		</section>	
+
+
+
+		<footer id="the_footer">
+			copyright crap goes here
+		</footer>
+
+		<br>
+		<pos><a href="#top">Go to the Top</a></pos>
+	</div>
+</BODY>
+
+
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxc	dn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>	
+
+
+</HTML>

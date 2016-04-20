@@ -1,0 +1,126 @@
+BODY {
+	text-align: center;
+	margin: 0;
+  	height: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	font-family: "Calibri", Gadget, sans-serif;
+	font-weight: bold;
+
+  	}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, aside, nav, article{
+	display: block;
+}
+a:link {color: yellow; text-decoration: none;}
+a:hover{color:red;}
+a:active{color: green;}
+a:visited{color: orange;}
+
+pos {position: fixed;
+	font-size: 120%;
+	top: 93%;
+	left: 90%;
+	font-weight: bold;
+	}
+
+.clockStyle {
+	padding:6px;
+	font-family:"Calibri", Gadget, sans-serif;
+    font-size:16px;
+    letter-spacing: 2px;
+
+}
+
+ul {
+    display: table;
+	width: 100%;
+	margin:0;
+    background-color: #333;
+
+}
+
+li {
+    display: table-cell;
+	text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#the_footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid blue;
+}
+
+article {
+
+	flex: 1;
+	background: #0059b3;
+	padding: 20px;
+	margin-bottom: 15px;
+	-webkit-border-radius:25px;
+	-webkit-box-shadow:rgb(130,130,130) 5px 5px 5px;
+
+
+}
+
+article>footer{
+	text-align: right;
+}
+
+#big_wrapper{
+	border: 1px hidden black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+
+}
+
+
+.column { position: relative; float: left;  }
+
+#center { padding: 0 20px; margin-left: 23%; margin-top:20px;width: 500px;}
+
+#left {
+text-align: center;
+   padding: 0 10px;
+  right: 240px;
+  -webkit-border-radius:25px;
+  -webkit-box-shadow:rgb(130,130,130) 8px 8px 8px;
+  width: 200px;
+  background: #0080ff;
+   margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: -53%;
+
+}
+
+#right {
+	text-align: center;
+   padding: 0 10px;
+  margin-right: -100%;
+  -webkit-border-radius:25px;
+  -webkit-box-shadow:rgb(130,130,130) 8px 8px 8px;
+  width: 200px;
+  background: #0080ff;
+  margin-left: 1%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
